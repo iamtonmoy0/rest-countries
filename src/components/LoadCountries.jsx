@@ -13,7 +13,7 @@ useEffect(()=>{
 		<>
 		<p>Total Countries  {countries.length}  Available </p>
 		{
-			countries.map(country=> <Country   name={country.name.official} population={country.population} />)
+			countries.map(country=> <Country   country={country} />)
 		}
 		</>
 	)

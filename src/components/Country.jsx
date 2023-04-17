@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 
-export const Country=({name,population})=>{
+export const Country=(props)=>{
+	
 
 	return(
 		<>
-		<h2> Name: {name}</h2>
-		<p>Population:{population}</p>
-		</>
+		<h2> Name: {props.country.name.common}</h2>
+				</>
 	)
 }
