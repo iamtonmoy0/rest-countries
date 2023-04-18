@@ -7,11 +7,11 @@ export const Country=(props)=>{
 	
 
 	return(
-		< >
+		< div className='container'>
 		<h2> Name: {name.common}</h2>
 		<img src="{flags.png}" alt="" />
 		<p>Area: {area}</p>
 		<p><small>Region: {region}</small></p>
-				</>
+				</div>
 	)
 }

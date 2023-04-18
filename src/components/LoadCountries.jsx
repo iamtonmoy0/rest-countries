@@ -13,12 +13,12 @@ useEffect(()=>{
 	return(
 		<>
 		<p>Total Countries  {countries.length}  Available </p>
-		<div className="container">
+		
 
 		{
 			countries.map(country=> <Country   country={country} key={country.cca3} />)
 		}
-		</div>
+		
 		</>
 	)
 }
