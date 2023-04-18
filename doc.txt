@@ -1,1 +1,2 @@
 ***************************************************** Rest county app with React *************************************************************
+ simple app fetching data from api and passing the data parent components to child components via props and child components destructured the property to  easy format. 
